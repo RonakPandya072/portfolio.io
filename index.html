@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fas fa-code fa-2x text-warning pb-3"></i>
+                <h5 class="d-inline pl-2 text-white">Portfolio</h5>
+            </div>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-3">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#projects" class="text-white navigation-link">Projects</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#social-media" class="text-white navigation-link">Social Media</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://drive.google.com/file/d/1z43Fcdq5g8n4JUV9WaQG8A8vYNRuMu4e/view?usp=sharing"
+                            target="_blank" class="text-white navigation-link">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-container container">
+        <div class="row main_row">
+            <div class="col-6">
+                <h2 class="text-white">Hello, I'm</h2>
+                <h1 class="text-warning m-heading">Ronak Pandya</h1>
+                <h2 class="text-white">Data Science enthusiast</h2>
+            </div>
+            <div class="col-6">
+                <img src="D:\IIT Roorkee DS\Projects\my website\images\Profile-photo.jpg"
+                    class="img-fluid" />
+            </div>
+        </div>
+    </div>
+    
+    <!-- About Section -->
+    <div id="about" class="container about p-5">
+        <div class="row">
+            <div class="col-6">
+                <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/python-coding-language.png" class="img-fluid" />
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <h3 class="text-warning">About Me</h3>
+                <h1 class="m-heading">A little bit about me</h1>
+                <p> As a self-motivated student with strong technical and interpersonal skills, I grasp every learning opportunity that comes my way.
+                    I'm a post graduate student at the Mehta Family School of Data Science and Artificial Inteligence,
+                    <b class="text-warning">Indian Institute of Technology,Roorkee</b>
+                </p>
+                <br />
+                <p>
+                    I completed my Btech in the field of Petroleum Engineering (major in Upstream) from <b
+                        class="text-warning">Pandit Deendayal Energy University</b> in 2020
+                    A summer internship at ONGC and Essar gave me an opportunity to get a deeper understanding of
+                    production engineering.During my internship with Essar, I worked on the
+                    <b class="text-warning">optimization of sucker rod pumps.</b>
+                    I did my Bachelor's project with the guidance of Shree Shashi Shekar Singh sir on the subject of <b
+                        class="text-warning">designing sub hydrostatic workover fluids.</b>
+                </p>
+                <!---<button class="btn btn-outline-warning">Learn More</button>--->
+            </div>
+        </div>
+    </div>
+    <!-- Projects Section -->
+    <div id="projects" class="container mt-5 pt-5">
+        <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+        <div class="row">
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/oil_gas.jpg" class="card-img-top" style="height: 13rem;" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">ML in Oil and Gas industry</h5>
+                        <p class="card-text">
+                        
+                        Applied machine learning algorithms and created end to end application to solve the problems related to oil and gas industry, which includes critical oil rate calculation,
+                        PVT properties calculation and well flow rate calculation using indirect methods.
+                        </p>
+                        <a href="https://ml-in-oil-and-gas.herokuapp.com/" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/flight.jpg" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Flight Price Prediction</h5>
+                        <p class="card-text">
+                            An end to end web application that predict flight ticket price. Data set used in the application is from kaggle flight price prediction. Ensamble methods 
+                            outperforms all other algorithms. To see the details of the project follow my github page.
+                        </p>
+                        <a href="https://flight-price-prediction-123.herokuapp.com/" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/book.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Book Recommendation System</h5>
+                        <p class="card-text">
+                            desined a book recommendation system that works on collaborative filtering algorithm, recommends top 50 books initially and also for a selected book it will 
+                            suggest top 5 most similar books. kaggle book recommendation dataset is used in the project. 
+                        </p>
+                        <a href="https://book-recommendation-system7.herokuapp.com/" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/music.jpg" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Music generation using Deep learning</h5>
+                        <p class="card-text">
+                            Designed a music generator that generates notes of piano given the starting notes. AI generated music is comparable with humans.visit github page for code and detailed explanation.
+                        </p>
+                        <a href="https://github.com/RonakPandya072/Music_generation_using_DL" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/analysis.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Exploratory data analysis on NIRF ranking score</h5>
+                        <p class="card-text">
+                            Build an end to end analizer of NIRF ranking 2019,2020 and 2021. A web scrapping is done to gather the data from the official website. Provides brode overview of
+                            top 100 technical institutions of India. 
+                        </p>
+                        <a href="https://nirfranking.herokuapp.com/" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="file:///D:/IIT%20Roorkee%20DS/Projects/my%20website/images/whatsapp.png" class="card-img-top" alt="..." style="height: 13rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">Whatsapp chat analysis web app</h5>
+                        <p class="card-text">
+                            A web application is made that analyse group as well as individual chat with various parameters. A text file from the whatsapp is first download and then upload to the web application that will automatically analyse the data.                   </p>
+                        <a href=" https://whatsappdataanalysis1.herokuapp.com/" class="btn btn-warning">See Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Social Media Section -->
+  <div id="social-media" class="container-fluid">
+    <div class="container text-white py-5">
+      <h4 class="text-warning">Social Media</h4>
+      <h1 class="m-heading">Let's be friends</h1>
+      <div class="row pt-5">
+        <div class="col-3 media_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start" >
+              <h3 class="m-0 pt-2 text-white"><a  href="https://www.linkedin.com/in/ronak-pandya-44214a159/">LinkedIn</a></h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 media_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white"><a href="https://github.com/RonakPandya072">Github</a></h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-github fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 media_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white"><a href="https://twitter.com/iam_RonakPandya">Twitter</a></h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-twitter fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 media_link bg-warning btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-dark"><a href="https://drive.google.com/file/d/1GO6qrQn1cUilkQ3hbk6AHJLwoiV0OSeZ/view?usp=sharing">Email</a></h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fas fa-envelope fa-2x text-secondary"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-muted text-center py-3 mt-5">
+      <h5>
+        Copyright &copy; 2022 |
+        <a class="text-warning text-decoration-none" href="#about">Ronak Pandya</a>
+      </h5>
+    </div>
+  </footer>
+</body>
+
+</html>
